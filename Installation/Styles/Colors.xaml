@@ -1,0 +1,59 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="options">
+
+
+
+    <!--BASE COLORS-->
+    <Color x:Key="BlackColor">#FF000000</Color>
+    <Color x:Key="WhiteColor">#FFFFFFFF</Color>
+    <Color x:Key="Gray1">#FF333333</Color>
+    <Color x:Key="Gray2">#FF7F7F7F</Color>
+    <Color x:Key="Gray3">#FF9D9D9D</Color>
+    <Color x:Key="Gray4">#FFA59F93</Color>
+    <Color x:Key="Gray5">#FFB9B9B9</Color>
+    <Color x:Key="Gray6">#FFCCCCCC</Color>
+    <Color x:Key="Gray7">#FFD8D8D9</Color>
+    <Color x:Key="Gray8">#FFE0E0E0</Color>
+    <Color x:Key="Gray9">#5EC9C9C9</Color>
+    <Color x:Key="Gray10">#FFF7F7F7</Color>
+
+    <SolidColorBrush x:Key="WhiteBrush" Color="{DynamicResource WhiteColor}"/>
+    <SolidColorBrush x:Key="GrayBrush1" Color="{DynamicResource Gray1}"/>
+    <SolidColorBrush x:Key="GrayBrush2" Color="{DynamicResource Gray2}"/>
+    <SolidColorBrush x:Key="GrayBrush3" Color="{DynamicResource Gray3}"/>
+    <SolidColorBrush x:Key="GrayBrush4" Color="{DynamicResource Gray4}"/>
+    <SolidColorBrush x:Key="GrayBrush5" Color="{DynamicResource Gray5}"/>
+    <SolidColorBrush x:Key="GrayBrush6" Color="{DynamicResource Gray6}"/>
+    <SolidColorBrush x:Key="GrayBrush7" Color="{DynamicResource Gray7}"/>
+    <SolidColorBrush x:Key="GrayBrush8" Color="{DynamicResource Gray8}"/>
+    <SolidColorBrush x:Key="GrayBrush9" Color="{DynamicResource Gray9}"/>
+    <SolidColorBrush x:Key="GrayBrush10" Color="{DynamicResource Gray10}"/>
+
+    <!--<Color x:Key="Oringe">#FFFE7800</Color>-->
+    <Color x:Key="Oringe1">#FFFE7800</Color>
+    <Color x:Key="Oringe2">#FFFF9224</Color>
+    <Color x:Key="Oringe3">#FFFFA042</Color>
+    <Color x:Key="Oringe4">#FFFFAF60</Color>
+    <Color x:Key="Oringe5">#FFFFBB77</Color>
+    <Color x:Key="Oringe6">#FFFFC78E</Color>
+    <Color x:Key="Oringe7">#FFFFD1A4</Color>
+    <Color x:Key="Oringe8">#FFFFDCB9</Color>
+    <Color x:Key="Oringe9">#FFFFE4CA</Color>
+    <Color x:Key="Oringe10">#FFFFEEDD</Color>
+
+    <SolidColorBrush x:Key="OringeBrush1" Color="{DynamicResource Oringe1}"/>
+    <SolidColorBrush x:Key="OringeBrush2" Color="{DynamicResource Oringe2}"/>
+    <SolidColorBrush x:Key="OringeBrush3" Color="{DynamicResource Oringe3}"/>
+    <SolidColorBrush x:Key="OringeBrush4" Color="{DynamicResource Oringe4}"/>
+    <SolidColorBrush x:Key="OringeBrush5" Color="{DynamicResource Oringe5}"/>
+    <SolidColorBrush x:Key="OringeBrush6" Color="{DynamicResource Oringe6}"/>
+    <SolidColorBrush x:Key="OringeBrush7" Color="{DynamicResource Oringe7}"/>
+    <SolidColorBrush x:Key="OringeBrush8" Color="{DynamicResource Oringe8}"/>
+    <SolidColorBrush x:Key="OringeBrush9" Color="{DynamicResource Oringe9}"/>
+    <SolidColorBrush x:Key="OringeBrush10" Color="{DynamicResource Oringe10}"/>
+
+    <SolidColorBrush x:Key="LabelTextBrush" Color="#666" />
+</ResourceDictionary>

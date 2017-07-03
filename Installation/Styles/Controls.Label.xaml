@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="options">
+
+    <Style x:Key="MetroLabel" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="{DynamicResource LabelTextBrush}" />
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}" />
+    </Style>
+    <Style x:Key="MetroTitleLabel" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="{DynamicResource LabelTextBrush}" />
+        <Setter Property="FontSize" Value="{DynamicResource SubFontSize}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}" />
+    </Style>
+</ResourceDictionary>
