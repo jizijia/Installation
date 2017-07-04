@@ -19,7 +19,7 @@
             <Label x:Name="txtTitle" Style="{DynamicResource MetroTitleLabel}">提醒</Label>
         </StackPanel>
         <StackPanel  Grid.Row="1"  >
-            <Label x:Name="txtContent" Margin="50 0 0 0">提醒</Label>
+            <Label x:Name="txtContent" Margin="60 0 0 0">提醒</Label>
         </StackPanel >
         <StackPanel  Grid.Row="2"  VerticalAlignment="Center" HorizontalAlignment="Right">
             <Button Content="确定"  Background="{DynamicResource OringeBrush1}"  IsEnabled="False" BorderThickness="0"></Button>
